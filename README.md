@@ -33,3 +33,21 @@ This was created as a personal project to learn the fundamentals of game develop
 2. **Install Pygame**:
    ```bash
    pip install pygame
+
+## Clone this repository
+git clone https://github.com/yourusername/starfire-assault.git
+
+## Make sure all assets are in place:
+Img/
+  Rocket.png
+  enemy.png
+  bullet.png
+  Background.jpg
+sound/
+  background_music.mp3
+  shot.mp3
+  punch.mp3
+
+  
+
+   
