@@ -21,6 +21,9 @@ This was created as a personal project to learn the fundamentals of game develop
 
 <img width="1594" height="1270" alt="image" src="https://github.com/user-attachments/assets/32d09a8b-b40b-42f1-b11b-a2d868bc0298" />
 
+<img width="1594" height="1270" alt="image" src="https://github.com/user-attachments/assets/bf4ba063-a0b9-4d4b-8d3c-3cd91a9486a1" />
+
+
 
 ---
 
