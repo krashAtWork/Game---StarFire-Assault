@@ -1,0 +1,51 @@
+
+---
+
+## **LEARNING_NOTES.md**  
+
+```markdown
+# Learning Notes – Starfire Assault
+
+This game was built entirely from scratch using Python and Pygame.  
+Here’s what I learned while making it:
+
+---
+
+## 1. Game Window Setup
+- Initialized Pygame and created an 800×600 display window.
+- Learned how to set window captions and icons.
+
+---
+
+## 2. Background & Audio
+- Added a static background image to make the game more immersive.
+- Used `pygame.mixer.music` for looping background music.
+- Learned to adjust audio volume and trigger sound effects for specific events.
+
+---
+
+## 3. Player Control
+- Mapped left/right arrow keys to control horizontal movement.
+- Reset movement when keys are released to prevent continuous sliding.
+- Implemented boundary checks so the player stays on screen.
+
+---
+
+## 4. Enemy Management
+- Spawned multiple enemies with randomized horizontal positions.
+- Made enemies bounce at screen edges and drop down after each bounce.
+- Learned to manage enemy positions and speeds using lists.
+
+---
+
+## 5. Bullet Mechanics
+- Allowed only one bullet on screen at a time using a `visible_bullet` flag.
+- Learned to “detach” bullet movement from player position once fired.
+- Reset bullet position when it goes off-screen or hits an enemy.
+
+---
+
+## 6. Collision Detection
+- Used Euclidean distance formula to check hits:
+  ```python
+  math.sqrt((x1 - x2)**2 + (y1 - y2)**2) < threshold
